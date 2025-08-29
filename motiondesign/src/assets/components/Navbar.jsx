@@ -8,8 +8,8 @@ import { IoIosLogIn, IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
 import { FaChalkboardTeacher, FaUserGraduate } from 'react-icons/fa';
 
 const navLinks = [
-  { id: 1, name: 'Home', path: '/' },
-  { id: 2, name: 'About', path: '/aboutus' },
+  { id: 1, name: 'motion', path: '/' },
+  { id: 2, name: 'existanimation', path: '/existanimation' },
   { id: 3, name: 'Class Profile', path: '/classprofile' },
   { id: 4, name: 'Blog', path: '/blog' },
   { id: 5, name: 'Portfolio', path: '/portfolio' },
@@ -116,7 +116,7 @@ const Navbar = () => {
                 <div key={link.id} className="relative group">
                   <Link
                     to={link.path}
-                    className={`px-3 py-2 text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300 ${
+                    className={`px-3 py-2 text-white hover:text-blue-600 font-medium transition-colors duration-300 ${
                       location.pathname === link.path ? 'text-blue-600 font-semibold' : ''
                     }`}
                   >

@@ -1,0 +1,11 @@
+motiondesign/
+  public/
+    fonts/
+      cabinet-grotesk.css
+      cabinet-grotesk/
+        CabinetGrotesk-Regular.woff2
+        CabinetGrotesk-Bold.woff2
+        ...
+  src/
+    index.css
+    main.jsx

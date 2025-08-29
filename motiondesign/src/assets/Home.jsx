@@ -27,14 +27,15 @@ const boxStyle = (color) => ({
 
 function Home() {
 
+
   return (
     <>
-    <div style={{display: 'grid', placeItems:'center', height:'100vh',}}>
+    <div style={{display: 'grid', placeItems:'center', height:'100vh',marginTop: '20px'}}>
 
       <motion.div
-      initial = {{opacity: 0, y: -200}}
-      animate = {{opacity: 1, y: 0}}
-      whileHover={{scale: 1.5}}
+      initial = {{opacity: 0, transform: "translateX(-100px)"}}
+      animate = {{opacity: 1, transform: "translateX(0px)"}}
+      whileHover={{scale: 1.2}}
       whileTap={{scale: 1.1}}
       transition={{duration: 0.9}}
 
@@ -44,11 +45,11 @@ function Home() {
       </motion.div>
 
       <motion.div
-      initial = {{scale: 0, rotate : 0}}
-      animate = {{scale: 1, rotate: 360}}
+      initial = {{scale: 0, rotate : 0, opacity: 0.4}}
+      animate = {{scale: 1, rotateX: 360, opacity: 1}}
       whileHover={{scale: 1.5}}
       whileTap={{scale: 1.1}}
-      transition={{duration: 3}}
+      transition={{duration: 5, type: 'spring'}}
 
 
       style={{width: 150, height: 150, backgroundColor: 'red', borderRadius: 20, cursor: 'pointer', marginBottom: 20}}>
@@ -65,7 +66,7 @@ function Home() {
 
       </motion.div>
 
-      <motion.div
+      {/* <motion.div
       style={{display: 'flex', gap: 20, justifyContent: 'center', alignItems: 'center', height:'100vh'}}
       variants={container}
       initial = 'hidden'
@@ -75,7 +76,18 @@ function Home() {
         <motion.div variants={item} style={boxStyle('red')} />
         <motion.div variants={item} style={boxStyle('green')} />
 
-      </motion.div>
+      </motion.div> */}
+
+<motion.div
+      animate={{ rotate: 180, originX: 0, originZ: 1 }}
+      transition={{ duration: 2 }}
+      drag
+      style={{
+        width: 100,
+        height: 100,
+        backgroundColor: "skyblue"
+      }}
+    />
       
 
     </div>
