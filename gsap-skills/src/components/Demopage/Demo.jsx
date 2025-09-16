@@ -5,7 +5,7 @@ const Demo = () => {
 
   useEffect (() =>{
     gsap.to (".box", 
-      {x: 300 , duration: 2, repeat: 2, yoyo: true, scaleY: 0.8 , rotation: "1.90rad", skewY: 30, skewX: 30
+      {x: 300 , duration: 2, repeat: 2, yoyo: true, scaleY: 0.8 , rotation: "1.90rad", skewY: 30, skewX: 30 , 
      });
 
     gsap.to (".circle", 
@@ -22,7 +22,7 @@ const Demo = () => {
   })
   return (
     <div>
-      <h1 className='font-[clash] text-5xl font-extralight'>light</h1>
+      <h1 className='font-[clash] text-5xl font-extralight'>light DATE 14</h1>
 
       {/* box animation */}
      <div className="box w-20 h-20 bg-blue-500 mt-5 rounded shadow-xl"></div>
