@@ -7,6 +7,9 @@ const Navbar = () => {
       <nav className='flex gap-3.5 text-blue-300'>
         <Link to='/' className='font-[clash] ' >DEMO</Link>
         <Link to='/easing' className='font-[clash]' >EASING</Link>
+        <Link to='/back' className='font-[clash]' >Back ease</Link>
+        <Link to='/bounce' className='font-[clash]' >Bounce ease</Link>
+        <Link to='/elastic' className='font-[clash]' >Elastic Easing</Link>
       </nav>
     </div>
   )
