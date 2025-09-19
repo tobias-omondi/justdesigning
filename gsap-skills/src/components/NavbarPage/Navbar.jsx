@@ -10,6 +10,7 @@ const Navbar = () => {
         <Link to='/back' className='font-[clash]' >Back ease</Link>
         <Link to='/bounce' className='font-[clash]' >Bounce ease</Link>
         <Link to='/elastic' className='font-[clash]' >Elastic Easing</Link>
+        <Link to='/stagger' className='font-[clash]' >Stagger Gsap</Link>
       </nav>
     </div>
   )

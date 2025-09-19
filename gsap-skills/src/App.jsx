@@ -7,6 +7,7 @@ import Ease from './components/Easing/Ease';
 import Back from './components/Easing/Back';
 import Bounce from './components/Easing/Bounce';
 import Elastic from './components/Easing/Elastic';
+import Stagger from './components/Stagger/Stagger';
 
 function App() {
  
@@ -21,6 +22,7 @@ function App() {
       <Route path='/back' element = {<Back />} />
       <Route path='/bounce' element = {<Bounce/>} />
       <Route path='/elastic' element = {<Elastic/>} />
+      <Route path='/stagger' element = {<Stagger/>} />
     </Routes>
     </BrowserRouter>
     </div>
