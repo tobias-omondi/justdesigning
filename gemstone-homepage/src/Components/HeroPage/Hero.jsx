@@ -49,6 +49,7 @@ const Hero = () => {
         scrub: 1,
         pin: true,
         anticipatePin: 1,
+       
         snap: {
           snapTo: 1 / (slides.length - 1),
           duration: { min: 0.2, max: 0.5 },
@@ -101,7 +102,7 @@ const Hero = () => {
                 alt={img.alt}
                 className="w-full h-full object-cover brightness-75"
               />
-              <h1 className="split absolute bottom-36 left-16 text-7xl font-medium text-white drop-shadow-lg">
+              <h1 className="split absolute bottom-36 left-16 text-7xl font-medium text-white">
                 {img.heading}
               </h1>
 

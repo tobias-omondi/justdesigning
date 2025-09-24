@@ -13,7 +13,7 @@ const Navbar = () => {
 
         {/* drop menu icon */}
         <div>
-          <HiOutlineMenuAlt4 size = {25} />
+          <HiOutlineMenuAlt4 size = {25} className='cursor-pointer'/>
         </div>
       </nav>
       </div>
