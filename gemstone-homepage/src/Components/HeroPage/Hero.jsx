@@ -16,10 +16,10 @@ gsap.registerPlugin(SplitText);
 
 const animaImage = [
   { id: 1, image: animalone, alt: "baby monkey", heading: "Nature Work", me : "rol", work: "Front-end Dev", Year: " Year", number: "2025 ///..." },
-  { id: 2, image: animaltwo, alt: "dolphin", heading: "Winged Tango" , me : "rol", work: "Front-end Dev" , Year: " Year", number: "2025" },
-  { id: 3, image: animalthree, alt: "goose", heading: "Art Studio" , me : "rol", work: "Front-end Dev"  },
-  { id: 4, image: animalfour, alt: "squirrel", heading: "CheerFully Nutty" , me : "rol", work: "Front-end Dev" , Year: " Year", number: "2025"},
-  { id: 5, image: animalfive, alt: "Fly", heading: "Nova & Orion" , me : "rol", work: "Front-end Dev" , Year: " Year", number: "2025"},
+  { id: 2, image: animaltwo, alt: "dolphin", heading: "Winged Tango" , me : "rol", work: "Front-end Dev" , Year: " Year", number: "2025///.." },
+  { id: 3, image: animalthree, alt: "goose", heading: "Art Studio" , me : "rol", work: "Front-end Dev" , Year: " Year", number: "2025///..."  },
+  { id: 4, image: animalfour, alt: "squirrel", heading: "CheerFully Nutty" , me : "rol", work: "Front-end Dev" , Year: " Year", number: "2025///..."},
+  { id: 5, image: animalfive, alt: "Fly", heading: "Nova & Orion" , me : "rol", work: "Front-end Dev" , Year: " Year", number: "2025///..."},
 ];
 
 const Hero = () => {
@@ -110,7 +110,7 @@ const Hero = () => {
                 {img.me} <br/> <span> {img.work}</span>
               </h6>
 
-              <h6 className="split absolute bottom-4 left-4 text font-light text-white text-center drop-shadow-lg">
+              <h6 className="split absolute bottom-4 left-4 text font-light text-black text-center drop-shadow-lg">
                 {img.Year} <br/> <span> {img.number}</span>
               </h6>
               </div>
